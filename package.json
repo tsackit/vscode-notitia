@@ -12,23 +12,14 @@
   "keywords": [
     "db",
     "tools",
-		"manager",
-		"mongo",
-		"postgres",
-		"redis"
+    "manager",
+    "mongo",
+    "postgres",
+    "redis"
   ],
-  "activationEvents": [
-    "onCommand:Notitia.helloWorld"
-  ],
+  "activationEvents": [],
   "main": "./dist/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "Notitia.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
+  "contributes": {},
   "scripts": {
     "vscode:prepublish": "yarn run package",
     "compile": "webpack --config ./build/node-extension.webpack.config.js",
